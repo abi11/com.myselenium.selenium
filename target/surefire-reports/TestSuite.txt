@@ -1,0 +1,33 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 8, Time elapsed: 2.779 s <<< FAILURE! - in TestSuite
+beforeTest(com.myselenium.selenium.EdgeTest)  Time elapsed: 2.57 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: No matching capabilities found
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'ABI-PC', ip: '192.168.229.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00007FF65297C3E2+1950690]
+	Ordinal0 [0x00007FF6528DF782+1308546]
+	Ordinal0 [0x00007FF652840981+657793]
+	Ordinal0 [0x00007FF6527D6C79+224377]
+	Ordinal0 [0x00007FF6527D678A+223114]
+	Ordinal0 [0x00007FF6527D7BF1+228337]
+	Ordinal0 [0x00007FF6527D51AF+217519]
+	Ordinal0 [0x00007FF6527B706F+94319]
+	Ordinal0 [0x00007FF6527B822E+98862]
+	Ordinal0 [0x00007FF6528F8611+1410577]
+	GetHandleVerifier [0x00007FF652A3DA09+656377]
+	GetHandleVerifier [0x00007FF652A3D7A1+655761]
+	GetHandleVerifier [0x00007FF652A540EC+748252]
+	GetHandleVerifier [0x00007FF652A3E1E3+658387]
+	Ordinal0 [0x00007FF6528EF0DE+1372382]
+	Ordinal0 [0x00007FF6528FA1F6+1417718]
+	Ordinal0 [0x00007FF652915F3D+1531709]
+	BaseThreadInitThunk [0x00007FFFBDE97BD4+20]
+	RtlUserThreadStart [0x00007FFFBF74CE51+33]
+
+	at com.myselenium.selenium.EdgeTest.beforeTest(EdgeTest.java:37)
+

@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">3</td><td class="numi">0</td><td class="numi">1.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">com.myselenium.selenium.EdgeTest</td><td><a href="#m1"><b>beforeTest</b>  </a></td><td class="numi">1</td><td>1593202417937</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="2">com.myselenium.selenium.InternetExplorarTest</td><td><a href="#m2"><b>afterTest</b>  </a></td><td class="numi">1</td><td>1593202419483</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m3"><b>beforeTest</b>  </a></td><td class="numi">1</td><td>1593202419461</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.myselenium.selenium.EdgeTest</td><td><a href="#m4"><b>afterTest</b>  </a></td><td class="numi">1</td><td>1593202419482</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="2">com.myselenium.selenium.FirefoxTest</td><td><a href="#m5"><b>afterTest</b>  </a></td><td class="numi">1</td><td>1593202419482</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m6"><b>beforeTest</b>  </a></td><td class="numi">1</td><td>1593202419461</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Test &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="1">com.myselenium.selenium.InternetExplorarTest</td><td><a href="#m7"><b>testEasy</b>  </a></td><td class="numi">1</td><td>1593202419475</td><td class="numi">1</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.myselenium.selenium.EdgeTest</td><td><a href="#m8"><b>testEasy</b>  </a></td><td class="numi">1</td><td>1593202419480</td><td class="numi">1</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.myselenium.selenium.FirefoxTest</td><td><a href="#m9"><b>testEasy</b>  </a></td><td class="numi">1</td><td>1593202419482</td><td class="numi">0</td></tr>
+</table>
+<h1>Test</h1>
+<h2 id="m1">com.myselenium.selenium.EdgeTest:beforeTest</h2>
+<div style="padding-left:3em">
+<p>session not created: No matching capabilities found
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;ABI-PC&apos;, ip: &apos;192.168.229.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_102&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00007FF65297C3E2+1950690]
+	Ordinal0 [0x00007FF6528DF782+1308546]
+	Ordinal0 [0x00007FF652840981+657793]
+	Ordinal0 [0x00007FF6527D6C79+224377]
+	Ordinal0 [0x00007FF6527D678A+223114]
+	Ordinal0 [0x00007FF6527D7BF1+228337]
+	Ordinal0 [0x00007FF6527D51AF+217519]
+	Ordinal0 [0x00007FF6527B706F+94319]
+	Ordinal0 [0x00007FF6527B822E+98862]
+	Ordinal0 [0x00007FF6528F8611+1410577]
+	GetHandleVerifier [0x00007FF652A3DA09+656377]
+	GetHandleVerifier [0x00007FF652A3D7A1+655761]
+	GetHandleVerifier [0x00007FF652A540EC+748252]
+	GetHandleVerifier [0x00007FF652A3E1E3+658387]
+	Ordinal0 [0x00007FF6528EF0DE+1372382]
+	Ordinal0 [0x00007FF6528FA1F6+1417718]
+	Ordinal0 [0x00007FF652915F3D+1531709]
+	BaseThreadInitThunk [0x00007FFFBDE97BD4+20]
+	RtlUserThreadStart [0x00007FFFBF74CE51+33]
+</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+<br/>at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+<br/>at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+<br/>at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+<br/>at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+<br/>at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+<br/>at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+<br/>at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+<br/>at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+<br/>at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+<br/>at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+<br/>at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+<br/>at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+<br/>at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:138)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:142)
+<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+<br/>at com.myselenium.selenium.EdgeTest.beforeTest(EdgeTest.java:37)
+<br/>27 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.myselenium.selenium.InternetExplorarTest:afterTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.myselenium.selenium.InternetExplorarTest:beforeTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.myselenium.selenium.EdgeTest:afterTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.myselenium.selenium.FirefoxTest:afterTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.myselenium.selenium.FirefoxTest:beforeTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.myselenium.selenium.InternetExplorarTest:testEasy</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.myselenium.selenium.EdgeTest:testEasy</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.myselenium.selenium.FirefoxTest:testEasy</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

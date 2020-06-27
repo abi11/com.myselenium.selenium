@@ -1,0 +1,4 @@
+com\myselenium\selenium\ChromeTest.class
+com\myselenium\selenium\EdgeTest.class
+com\myselenium\selenium\FirefoxTest.class
+com\myselenium\selenium\InternetExplorarTest.class

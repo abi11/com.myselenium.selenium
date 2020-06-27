@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="2.779" tests="9" errors="0" skipped="8" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\rachel\eclipse-workspace\com.myselenium.selenium\target\test-classes;C:\Users\rachel\eclipse-workspace\com.myselenium.selenium\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.9.1\selenium-api-3.9.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.9.1\selenium-chrome-driver-3.9.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.9.1\selenium-edge-driver-3.9.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.9.1\selenium-firefox-driver-3.9.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.9.1\selenium-ie-driver-3.9.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.9.1\selenium-opera-driver-3.9.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.9.1\selenium-remote-driver-3.9.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.9.1\selenium-safari-driver-3.9.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.9.1\selenium-support-3.9.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_102\jre\bin"/>
+    <property name="sun.java.command" value="C:\Windows\Temp\surefire8458588616919867638\surefirebooter6861502702849968154.jar C:\Windows\Temp\surefire8458588616919867638 2020-06-26T16-13-34_733-jvmRun1 surefire1130796700420694702tmp surefire_08896572417344114516tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\rachel\eclipse-workspace\com.myselenium.selenium\target\test-classes;C:\Users\rachel\eclipse-workspace\com.myselenium.selenium\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.9.1\selenium-api-3.9.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.9.1\selenium-chrome-driver-3.9.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.9.1\selenium-edge-driver-3.9.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.9.1\selenium-firefox-driver-3.9.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.9.1\selenium-ie-driver-3.9.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.9.1\selenium-opera-driver-3.9.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.9.1\selenium-remote-driver-3.9.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.9.1\selenium-safari-driver-3.9.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.9.1\selenium-support-3.9.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_102\jre"/>
+    <property name="basedir" value="C:\Users\rachel\eclipse-workspace\com.myselenium.selenium"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire8458588616919867638\surefirebooter6861502702849968154.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_102\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_102\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_102-b14"/>
+    <property name="user.name" value="ABI-PC$"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_102\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\WINDOWS\system32\config\systemprofile\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="java.version" value="1.8.0_102"/>
+    <property name="user.dir" value="C:\Users\rachel\eclipse-workspace\com.myselenium.selenium"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_102\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Apache\maven/bin;C:\Program Files\Java\jdk1.8.0_102/bin;C:\Program Files\Java\jdk1.8.0_102/bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Python37\Scripts\;C:\Python37\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Java\jdk1.8.0_102\bin;C:\Program Files\Apache\maven\bin;C:\gradle-4.0.2\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\rachel\spring\spring-boot-cli-1.5.3.RELEASE-bin\spring-1.5.3.RELEASE\bin;C:\Program Files (x86)\scala\bin;C:\cygwin64\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\sbt\bin;C:\hadoop\bin;C:\spark-2.4.5-bin-hadoop2.7\bin;C:\zookeeper\apache-zookeeper-3.6.0\bin;;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.102-b14"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_102\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="beforeTest" classname="com.myselenium.selenium.EdgeTest" time="2.57">
+    <failure message="session not created: No matching capabilities found&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;ABI-PC&apos;, ip: &apos;192.168.229.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_102&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00007FF65297C3E2+1950690]&#10;	Ordinal0 [0x00007FF6528DF782+1308546]&#10;	Ordinal0 [0x00007FF652840981+657793]&#10;	Ordinal0 [0x00007FF6527D6C79+224377]&#10;	Ordinal0 [0x00007FF6527D678A+223114]&#10;	Ordinal0 [0x00007FF6527D7BF1+228337]&#10;	Ordinal0 [0x00007FF6527D51AF+217519]&#10;	Ordinal0 [0x00007FF6527B706F+94319]&#10;	Ordinal0 [0x00007FF6527B822E+98862]&#10;	Ordinal0 [0x00007FF6528F8611+1410577]&#10;	GetHandleVerifier [0x00007FF652A3DA09+656377]&#10;	GetHandleVerifier [0x00007FF652A3D7A1+655761]&#10;	GetHandleVerifier [0x00007FF652A540EC+748252]&#10;	GetHandleVerifier [0x00007FF652A3E1E3+658387]&#10;	Ordinal0 [0x00007FF6528EF0DE+1372382]&#10;	Ordinal0 [0x00007FF6528FA1F6+1417718]&#10;	Ordinal0 [0x00007FF652915F3D+1531709]&#10;	BaseThreadInitThunk [0x00007FFFBDE97BD4+20]&#10;	RtlUserThreadStart [0x00007FFFBF74CE51+33]&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created: No matching capabilities found
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'ABI-PC', ip: '192.168.229.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00007FF65297C3E2+1950690]
+	Ordinal0 [0x00007FF6528DF782+1308546]
+	Ordinal0 [0x00007FF652840981+657793]
+	Ordinal0 [0x00007FF6527D6C79+224377]
+	Ordinal0 [0x00007FF6527D678A+223114]
+	Ordinal0 [0x00007FF6527D7BF1+228337]
+	Ordinal0 [0x00007FF6527D51AF+217519]
+	Ordinal0 [0x00007FF6527B706F+94319]
+	Ordinal0 [0x00007FF6527B822E+98862]
+	Ordinal0 [0x00007FF6528F8611+1410577]
+	GetHandleVerifier [0x00007FF652A3DA09+656377]
+	GetHandleVerifier [0x00007FF652A3D7A1+655761]
+	GetHandleVerifier [0x00007FF652A540EC+748252]
+	GetHandleVerifier [0x00007FF652A3E1E3+658387]
+	Ordinal0 [0x00007FF6528EF0DE+1372382]
+	Ordinal0 [0x00007FF6528FA1F6+1417718]
+	Ordinal0 [0x00007FF652915F3D+1531709]
+	BaseThreadInitThunk [0x00007FFFBDE97BD4+20]
+	RtlUserThreadStart [0x00007FFFBF74CE51+33]
+
+	at com.myselenium.selenium.EdgeTest.beforeTest(EdgeTest.java:37)
+</failure>
+    <system-err><![CDATA[Starting MSEdgeDriver 80.0.328.0 (7877043e046ea7f0e65af016849a7cc881d6e77f) on port 27861
+Only local connections are allowed.
+Please protect ports used by MSEdgeDriver and related test frameworks to prevent access by malicious code.
+]]></system-err>
+  </testcase>
+  <testcase name="beforeTest" classname="com.myselenium.selenium.EdgeTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeTest" classname="com.myselenium.selenium.EdgeTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testEasy" classname="com.myselenium.selenium.InternetExplorarTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testEasy" classname="com.myselenium.selenium.EdgeTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testEasy" classname="com.myselenium.selenium.FirefoxTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterTest" classname="com.myselenium.selenium.EdgeTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterTest" classname="com.myselenium.selenium.EdgeTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterTest" classname="com.myselenium.selenium.EdgeTest" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
